@@ -1,0 +1,28 @@
+                           precision    recall  f1-score   support
+
+          All Electronics       0.54      0.40      0.46      7932
+           Amazon Fashion       0.89      0.91      0.90      8962
+              Amazon Home       0.68      0.63      0.65     10705
+    Arts, Crafts & Sewing       0.78      0.77      0.77     10883
+               Automotive       0.83      0.84      0.84     11015
+                    Books       0.90      0.88      0.89     10453
+           Camera & Photo       0.78      0.86      0.82      5503
+Cell Phones & Accessories       0.81      0.85      0.83      8915
+                Computers       0.75      0.74      0.74     10073
+            Digital Music       0.86      0.90      0.88      7248
+                  Grocery       0.97      0.98      0.97     10527
+   Health & Personal Care       0.27      0.42      0.33      2118
+     Home Audio & Theater       0.54      0.71      0.61      5010
+  Industrial & Scientific       0.60      0.63      0.61      8325
+              Movies & TV       0.84      0.83      0.83      9091
+      Musical Instruments       0.83      0.85      0.84      5381
+          Office Products       0.76      0.72      0.74     10752
+             Pet Supplies       0.90      0.92      0.91      8624
+        Sports & Outdoors       0.72      0.70      0.71     10526
+ Tools & Home Improvement       0.71      0.68      0.69     11154
+             Toys & Games       0.77      0.73      0.75     10805
+              Video Games       0.81      0.87      0.84      3261
+
+                 accuracy                           0.77    187263
+                macro avg       0.75      0.76      0.76    187263
+             weighted avg       0.77      0.77      0.77    187263

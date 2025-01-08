@@ -1,0 +1,14 @@
+FROM python:3.9-slim
+
+RUN pip install --no-cache-dir fastapi uvicorn sentence-transformers scikit-learn pydantic pyyaml
+
+WORKDIR /app
+
+COPY inference/inference_api.py .
+COPY configuration/config_inference.yaml /configuration/
+COPY model /model
+
+EXPOSE 8000
+
+CMD ["uvicorn", "inference_api:app", "--host", "0.0.0.0", "--port", "8000"]
+

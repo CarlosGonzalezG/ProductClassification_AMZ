@@ -1,0 +1,8 @@
+dataset:
+  path: "dataset/amz_products_small.jsonl.gz"
+embedding:
+  model_name: "all-MiniLM-L6-v2"
+output_path:
+  path: "model/"
+model:
+  name: "xgboost" # Also logistic_regression, xgboost, catboost, lightgbm are available.

@@ -1,0 +1,7 @@
+model:
+  path: "/model/logistic_regression/model.pkl"
+embedder:
+  path: "all-MiniLM-L6-v2"
+server:
+  host: "0.0.0.0"
+  port: 8000
